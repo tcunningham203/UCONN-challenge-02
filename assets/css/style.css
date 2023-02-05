@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    font-family: 'Century Gothic', 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', 'sans-serif';
+}
+
+/* Most of the tricks I used are pulled from the previous assignment- however, I did search on Google for other ways to dynamically change text size. At this link, https://www.w3schools.com/css/css_font_size.asp, I learned about vw units and percentages of screen. I used this knowledge for many sections of the CSS, but wrote it for my purposes. I also learned about background gradients from https://www.w3schools.com/css/css3_gradients.asp, which I wanted to use in my header.
+
+Other than that, it was a lot of messing around with various values until things looked the way I wanted. One thing I was particularly struggling with was getting the bottom text to move properly within the header picture as the screen changed (the "p" stuff within the header). I eventually figured out using "bottom-margin" instead of just "bottom" did the trick.
+*/
+
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.link1 {
+    color: #adffb6;
+}
+
+.link2 {
+    color: #faffcf;
+}
+
+.link3 {
+    color: #ffd5d5;
+}
+
+.link4{
+    color: #ffffff;
+}
+
+.banner {
+    background-color: transparent;
+    position: relative;
+    
+}
+
+.banner h1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 4.5vw;
+    color: #ffffff;
+    font-weight: bolder;
+    background-image: linear-gradient(rgb(91, 146, 190), transparent);
+    height: 30%;
+    width: 100%;
+}
+
+.banner nav {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+    font-size: 2.3vw;
+    background-color: transparent;
+}
+
+.banner nav ul {
+    background-color: transparent;
+    
+}
+
+.banner nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    background-color: transparent;
+    margin-left: 30px;
+    text-align: center;
+    
+}
+
+.banner p {
+    position: absolute;
+    text-align: right;
+    bottom: 0px;
+    right: 0px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    font-size: 4vw;
+    background-image: linear-gradient(transparent, rgb(57, 123, 153));
+    width: 100%;
+    height: 13%;
+    
+}
+
+.sub1 {
+    color: #adffb6;
+}
+
+.sub2 {
+    color: #faffcf;
+}
+
+.sub3 {
+    color: #ffd5d5;
+}
+
+
+.castle {
+    max-width: 100%;
+    height: auto;
+  }
+
+div.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.profilepic {
+    display: block;
+    margin-right: 10000px;
+    border-radius: 100%;
+    max-width: 20%;
+    height: auto;
+    border: 2px solid black;
+  }

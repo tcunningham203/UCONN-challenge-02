@@ -9,3 +9,6 @@ Commit 02- Basic Files
 Added html, css files, folder structure.
 The reset CSS file was copied from Uconn folder 02- Advanced CSS.
 The html file was created by typing ! into the file and pressing enter to get the default start.
+
+Commit 03- "Header"
+Did all the html and CSS for the header. Added lots of bits from the previous project, then deleted and worked backward. Still have some placeholder text and html that will be changed and removed soon.
