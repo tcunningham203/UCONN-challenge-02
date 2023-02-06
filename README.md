@@ -15,3 +15,6 @@ Did all the html and CSS for the header. Added lots of bits from the previous pr
 
 Commit 04- "About me"
 Added about me section. Changed part of the header to have the links stay with the page the whole time.
+
+Commit 05- "Work"
+Added the portfolio section.

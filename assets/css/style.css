@@ -8,6 +8,9 @@
 
 /* Most of the tricks I used are pulled from the previous assignment- however, I did search on Google for other ways to dynamically change text size. At this link, https://www.w3schools.com/css/css_font_size.asp, I learned about vw units and percentages of screen. I used this knowledge for many sections of the CSS, but wrote it for my purposes. I also learned about background gradients from https://www.w3schools.com/css/css3_gradients.asp, which I wanted to use in my header.
 
+For the flexboxes, I used https://stackoverflow.com/questions/35871294/center-text-over-an-image-in-flexbox as a reference to learn how to put text inside the image.
+
+
 Other than that, it was a lot of messing around with various values until things looked the way I wanted. One thing I was particularly struggling with was getting the bottom text to move properly within the header picture as the screen changed (the "p" stuff within the header). I eventually figured out using "bottom-margin" instead of just "bottom" did the trick.
 */
 
@@ -40,13 +43,15 @@ a {
     z-index: 1;
 }
 
+
+
 .banner h1 {
     position: fixed;
     top: 0px;
     left: 0px;
-    padding-top: 10px;
+    padding-top: 1px;
     padding-left: 10px;
-    font-size: 70px;
+    font-size: 5vw;
     color: #ffffff;
     font-weight: bolder;
     background-color: #7498CC;
@@ -54,14 +59,22 @@ a {
     width: 100%;
 }
 
+.bannerpic {
+width: 5%;
+height: auto;
+float: left;
+margin-right: 20px;
+    
+}
+
 .banner nav {
     position: fixed;
     top: 0px;
     right: 0px;
-    padding-top: 25px;
+    padding-top: 60px;
     padding-right: 10px;
 
-    font-size: 30px;
+    font-size: 23px;
     background-color: transparent;
 }
 
@@ -140,7 +153,7 @@ a {
     height: 13%;
     
 }
-.content {
+.content1 {
     width: 100%;
     display: block;
     margin-left: 0px; 
@@ -158,11 +171,10 @@ a {
     background-image: linear-gradient(rgb(57, 123, 153), rgb(55, 89, 121));
 }
 
-.content {
+.content1 {
     margin-bottom: 0px;
     padding-left: 50px;
     padding-right: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #375979;
     color: #ffffff;
     overflow:hidden;
@@ -175,7 +187,7 @@ a {
     
 }
 
-.righttext{
+.text1{
     margin-left: 50px;
     margin-right: 50px;
     width: 500px;
@@ -184,14 +196,7 @@ a {
     font-size: 2vw;
 }
 
-/* .lefttext{
-    margin-top: 50px;
-    float: left;
-    max-width: 50%;
-    text-align: justify;
-} */
-
-  .picture-left {
+.pic1{
     flex: 25%;
     width: 250px;
     margin-top: 1px;
@@ -200,13 +205,194 @@ a {
     border: 2px solid black;
 }
 
-/* .picture-right {
-    float: right;
-    max-width: 25%;
-    margin-right: 25px;
+
+.gradient2 h3 {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 50px; 
+    color: white;
+    width: 100%;
+    background-image: linear-gradient(rgb(55, 89, 121), rgb(0, 0, 0));
+}
+
+
+.portfolio {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+  }
+  
+  .container {
+    position: relative;
+    cursor: pointer;
+    
+    
+    
+    
+  }
+  
+  .challenge01 {
+    flex: 100%;
+    margin: 10px;
+    border-radius: 10%;
+    border: 15px solid rgb(0, 0, 0);
+
+  }
+
+
+  .pic2 {
+    flex: 25%;
+    max-width: 600px;
+    margin: 10px;
+    border-radius: 10%;
+    border: 15px solid rgb(0, 0, 0);
+
+
+
+  }
+
+  .piclabel {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #ffffff;
+    background-color: black;
+    align-items: flex-end;
+    justify-content: flex-start;
+    justify-content: center;
+    position: absolute;
+    left: 10px;
+    bottom: 60px;
+    margin: 0;
+    padding: 20px;
+    font-size: 25px;
+    opacity: 100;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .challenge01{
+    width: 100%;
+    opacity: .6;
+    max-height: inherit;
+    transition:  0.5s;
+    overflow: hidden;
+  }
+
+  .pic2{
+    width: 100%;
+    opacity: .6;
+    max-height: inherit;
+    transition:  0.5s;
+    overflow: hidden;
+  }
+
+  .container:hover .piclabel{
+    opacity: 0;
+  }
+  
+  .container:hover .challenge01{
+    opacity: 100;
+  }
+
+  .container:hover .pic2{
+    opacity: 100;
+  }
+
+/* .portfolio {
+    
+    width: 100%;
+    display: flex;
+    
+    
+    justify-content: center;
+    align-items: center;
+}
+
+    .challenge01 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 100%;
+    width: 100%;
     margin-top: 1px;
-    border-radius: 100%;
-    max-width: 25%;
+    border-radius: 10%;
+    margin-top: 1%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 15px solid rgb(0, 0, 0);
+}
+
+    .pic2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 25%;
+    width: 25%;
+    margin-top: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10%;
     height: auto;
-    border: 2px solid black;
-} */
+    border: 15px solid rgb(0, 0, 0);
+}
+/* 
+.piclabel{
+    position: absolute;
+    background-color: #333333;
+    color: #d9d9d9;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.flexbox{
+position: relative;
+display: flex;
+flex-direction: row;
+width: 100%;
+max-height: 80vh;
+}
+
+.container{
+  cursor: pointer;
+  width: 34%;
+  max-height: 70vh;
+  display:block;
+  text-align: center;
+
+}
+
+.image-category{
+  width: 100%;
+  opacity: 1;
+  max-height: inherit;
+  transition:  0.5s;
+  overflow: hidden;
+}
+
+.image-description{
+  transform: translateY(-50vh);
+  font-size: 25px;
+  font-family: 'Comic Sans MS';
+  font-weight: 900;
+  opacity: 0;
+  transition:  0.6s;
+}
+
+.container:hover .image-description{
+  opacity: 100;
+}
+
+.container:hover .image-category{
+  opacity: 0.6;
+} */ */
