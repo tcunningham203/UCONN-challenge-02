@@ -18,3 +18,6 @@ Added about me section. Changed part of the header to have the links stay with t
 
 Commit 05- "Work"
 Added the portfolio section.
+
+Commit 06- "Responsive UI"
+Added the contact me section. Added links to the work section. Added smooth scroll. Made the website friendly for mobile.
