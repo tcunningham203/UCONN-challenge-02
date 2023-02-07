@@ -24,7 +24,7 @@ The header has 3 navigation links which takes you to various points in the page.
 
 The first link takes you to an About Me section, where I explain a bit about my story and motivations. When you shrink the page size for mobile, two of the pictures become hidden and only one of the three pictures is used.
 
-The second link takes you to my portfolio. As I mentioned, there is only 1 project so far, which is featured at the top and is larger than the others. The other links go to Youtube videos on my channel. There is an opacity animation when you hover over a video or application, and the title fades away to reveal the full picture.
+The second link takes you to my portfolio. As I mentioned, there is only 1 project so far, which is featured at the top and is larger than the others. The other links go to Youtube videos on my channel. There is an opacity animation when you hover over a video or application, and the title is revealed. For mobile users, the title is always on the screen because there is no hover on mobile.
 
 The third link sends you to the bottom of the page, where you can find my contact information.
 
@@ -33,8 +33,6 @@ The fourth link sends you to my resume on Linkedin. I debated whether or not I s
 ## Challenges I Faced
 
 Each section took about 5-6 hours. I thought the flexbox stuff was particularly annoying. There are so many variables that can be adjusted. At one point I actually scrapped the entire 3rd section and started over because I was having trouble getting it to respond. But in the end, I did it. I think this will be a good reference for future projects.
-
-
 
 
 ## Credits
@@ -67,3 +65,6 @@ Added the contact me section. Added links to the work section. Added smooth scro
 
 Commit 07- "Links"
 Added finalized readme, link to website, and screenshots of the project.
+
+Commit 08- "Cleanup"
+Made a few adjustments to things to make the site look a bit cleaner.

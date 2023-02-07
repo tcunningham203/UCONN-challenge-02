@@ -56,7 +56,7 @@ a {
     left: 0px;
     padding-top: 1px;
     padding-left: 10px;
-    font-size: 5vw;
+    font-size: 4vw;
     color: #ffffff;
     font-weight: bolder;
     background-color: #7498CC;
@@ -230,6 +230,7 @@ margin-right: 20px;
     align-items: center;
     justify-content: center;
     background-color: black;
+    padding: 125px;
   }
   
   .container {
@@ -284,7 +285,7 @@ margin-right: 20px;
     margin: 0;
     padding: 20px;
     font-size: 25px;
-    opacity: 100;
+    opacity: 0;
     white-space: pre-wrap;
     word-wrap: break-word;
   }
@@ -292,7 +293,7 @@ margin-right: 20px;
  
 
   .container:hover .piclabel{
-    opacity: 0;
+    opacity: 100;
   }
   
   .container:hover .challenge01{
@@ -337,7 +338,7 @@ margin-right: 20px;
 
 
 
-@media screen and (max-width: 978px) {
+@media screen and (max-width: 1000px) {
     
   
     .content1 {
@@ -478,6 +479,38 @@ margin-right: 20px;
         
     }
 
+     .piclabel {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #ffffff;
+    background-color: black;
+    align-items: flex-end;
+    justify-content: flex-start;
+    justify-content: center;
+    position: absolute;
+    left: 10px;
+    bottom: 60px;
+    margin: 0;
+    padding: 20px;
+    font-size: 25px;
+    opacity: 100;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+
+  .portfolio {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 30px;
+  }
+  
 
 
 }
