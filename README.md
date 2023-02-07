@@ -68,3 +68,6 @@ Added finalized readme, link to website, and screenshots of the project.
 
 Commit 08- "Cleanup"
 Made a few adjustments to things to make the site look a bit cleaner.
+
+Commit 09- "Cleanup 2"
+A few more quick adjustments!
