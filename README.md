@@ -7,14 +7,14 @@ https://tcunningham203.github.io/UCONN-challenge-02/
 
 ## Screenshots of the Application
 In the assets folder, there is a screenshots folder which contains pictures of the website.
+![AppScreenshot1](/assets/screenshots/screenshot01.png?raw=true "Screenshot of Deployed Application- Part 1")
 
-./assets/screenshots/screenshot01.png
+![AppScreenshot1](/assets/screenshots/screenshot02.png?raw=true "Screenshot of Deployed Application- Part 2")
 
-./assets/screenshots/screenshot02.png
+![AppScreenshot1](/assets/screenshots/screenshot03.png?raw=true "Screenshot of Deployed Application- Part 3")
 
-./assets/screenshots/screenshot03.png
+![AppScreenshot1](/assets/screenshots/screenshot04.png?raw=true "Screenshot of Deployed Application- Part 4")
 
-./assets/screenshots/screenshot04.png
 
 ## What The Application Does, Features, How to Use
 
